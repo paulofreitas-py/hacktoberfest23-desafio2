@@ -40,6 +40,9 @@ img{
 button,
 input {
   border: 0;
+  height: 40px;
+  width: 100px;
+  font-size: inherit
 }
 button:focus,
 input:focus {
@@ -133,3 +136,4 @@ body{
   line-height: 180%;
 }
 /*-----------------------------*/
+
