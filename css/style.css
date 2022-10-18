@@ -59,8 +59,35 @@ input:focus {
 }
 /*-----------------------------*/
 body{
-  background-color: var(--bgSite); 
+  background-color: var(--bgSite);
 }
+/*-----------------------------*/
+.carrossel {
+  position:relative;
+  margin-top: 5%;
+  border: solid rgb(77, 73, 73) 10px;
+  border-radius: 20px 5px 20px 5px ;
+  margin-top: 10%;
+  margin-left: 35%;
+  overflow:hidden;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 5%;
+}
+
+.container1 {
+  margin-top: 2%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+.container1 img {
+  width: 100%;
+  height: 100%;
+}
+/*-----------------------------*/
+
 /*Font*/
 
 @font-face {
